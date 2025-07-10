@@ -20,9 +20,8 @@ Use the sample below to test the system:
 ## 🔗 Run the App
 Follow the installation steps below, then open your browser and go to:  
 # Run the Streamlit app
-streamlit run App.py
+Once you start the app using `streamlit run App.py`, open your browser and go to:
 🔗 [http://localhost:8501](http://localhost:8501)
- Network URL: http://192.168.29.104:8501
 This will launch the app on your local system using Streamlit.
 ## 🧠 Machine Learning Models Used
 
