@@ -9,7 +9,7 @@ To access the system, please use the following demo credentials:
 - **Password**: `admin123`
 
 ## 📂 Upload Format
-Upload a **cleaned CSV file** similar to the preprocessed KDD dataset.  
+Upload a **cleaned CSV file** similar to the preprocessed KDD dataset.
 Use the sample below to test the system:
 
 🔗 [Download Sample Dataset (`kddcup_clean.csv`)](https://raw.githubusercontent.com/KhushbooBoolchandani/Anomaly-Detection-In-Network-Traffic/main/kddcup_clean.csv)
