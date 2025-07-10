@@ -1,0 +1,104 @@
+/* ================= Base Layout ================ */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f8;
+    color: #111827;
+    margin: 0;
+    padding: 0;
+}
+
+/* ================= Container ================ */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* ================= Navbar ================ */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+}
+
+/* ================= Sidebar ================ */
+[data-testid="stSidebar"] {
+    background-color: #ffffff;
+    border-right: 1px solid #e5e7eb;
+}
+
+[data-testid="stSidebar"] .css-1d391kg {
+    padding: 2rem 1rem;
+}
+
+/* ================= Option Menu Active Item ================ */
+[data-testid="stSidebarNav"] ul {
+    margin-top: 20px;
+}
+
+.css-1d391kg .nav-item {
+    padding: 10px 16px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.css-1d391kg .nav-item:hover {
+    background-color: #e5e7eb;
+    cursor: pointer;
+}
+
+.css-1d391kg .nav-item.active {
+    background-color: #ff4b4b;
+    color: white;
+    font-weight: bold;
+}
+
+/* ================= Headings ================ */
+h1, h2, h3 {
+    font-weight: 600;
+    color: #111827;
+}
+
+/* ================= Buttons ================ */
+button, .stButton>button {
+    background-color: #2563eb;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #1e40af;
+    cursor: pointer;
+}
+
+/* ================= Table ================ */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+th, td {
+    text-align: left;
+    padding: 0.75rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+    background-color: #f3f4f6;
+}
+
+/* ================= Success/Warning ================ */
+.stAlert {
+    border-radius: 8px;
+}
