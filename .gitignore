@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# CatBoost logs
+catboost_info/
+
+# Local database/session info
+instance/
+*.db
+
+
+# MacOS/Windows system files
+.DS_Store
+Thumbs.db
+
+# Jupyter or VS Code folders (if present)
+.ipynb_checkpoints/
+.vscode/
+
+# Logs, temp files
+*.log
+*.tmp
+*.tsv
